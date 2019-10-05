@@ -1,0 +1,42 @@
+.drawer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #FFF;
+  padding-bottom: 8px;
+}
+
+.drawer-card__avatar {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7F88B2;
+  border-radius: 12px;
+}
+
+.drawer-card__avatar > span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.drawer-card__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #272C5E;
+}
+
+.drawer-card__btns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 12px;
+}
+
+.drawer-card__btns > button {
+  width: 86px;
+}

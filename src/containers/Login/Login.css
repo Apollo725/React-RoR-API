@@ -1,0 +1,143 @@
+.login-logo {
+  height: 40px;
+}
+
+.session-page {
+  height: calc(100vh - 47px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: dimgray;
+}
+
+.session-page-logo {
+  margin-bottom: 1em;
+  height: 3em;
+  margin-top: 12%;
+  font-size: 52px;
+  color: white;
+}
+
+.session-form-container {
+  background: white;
+  padding: 30px 30px;
+  border-radius: 7px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Avenir-Book;
+  min-height: 17.5em;
+}
+
+.session-form-top-section {
+  width: 100%;
+}
+
+.session-form-header {
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: #e7505a;
+  width: 100%;
+  margin: 0em 0em 1em 0em;
+}
+
+.session-form-subheader {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #22313f;
+  width: 100%;
+}
+
+.session-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.session-form-input {
+  background-color: #dde3ec;
+  color: #8290a3;
+  border: 1px solid #dde3ec;
+  height: 43px;
+  font-size: 14px;
+  padding: 0px 12px;
+  margin-bottom: 15px;
+  width: 316px;
+}
+
+.session-form-submit {
+  width: 100%;
+  height: 43px;
+  background-color: #e7505a;
+  color: white;
+  font-size: 14px;
+  margin: 20px 0;
+  min-height: 2em;
+}
+
+.post-form-link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.post-form-link-container a{
+  color: #4d87b9;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.session-page-ldap-section-container {
+  width: 100%;
+}
+
+.session-page-divider-container {
+  display: grid;
+  grid-template-columns: 1fr 1em 1fr;
+  grid-column-gap: 0.5em;
+  align-items: center;
+  width: 100%;
+  color: #acb5c3;
+  margin: 1em 0;
+}
+
+.session-page-ldap-button-container button {
+  width: 100%;
+  height: 43px;
+}
+
+.datatron-llc-notice {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  margin-top: 2em;
+  color: #7a8ca5;
+}
+
+.post-form-error-message {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}

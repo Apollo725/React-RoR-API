@@ -1,0 +1,48 @@
+.tag-input-container {
+  
+}
+
+.tag-input__input-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tag-input-field, .standard-input.tag-input-field {
+  padding-left: 30px;
+  width: 100%;
+}
+
+.tag-input-icon {
+  position: absolute;
+  left: 8px;
+  width: 14px;
+  height: 14px;
+}
+
+.tag-input-tag-container {
+  display: inline-block;
+  padding: 0;
+}
+
+.tag-input-tag {
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px;
+  margin: 8px 8px 0 0;
+  color: #4749A0;
+}
+
+  .tag-input-tag--highlighted {
+    border-color: #e7505a;
+  }
+
+  .tag-input-tag > span > svg {
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+  }
